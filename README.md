@@ -10,4 +10,5 @@ Our python script can do things like printing the classes today, opening the cla
  - webbrowser
  - time
  - datetime
+ - calendar
 
