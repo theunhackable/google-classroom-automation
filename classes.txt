@@ -1,0 +1,20 @@
+    subjects = {'monday' : ['DCCN', 'MPMC', 'WT','LUNCH BREAK', 'DMAA', 'CP', 'DCCN'],
+                'tuesday' : ['UNIX', 'DCCN', 'WT', 'LUNCH BREAK', 'RA', 'MPMC', 'WT'],
+                'wednesday' : ['WT', 'UNIX', 'DCCN', 'LUNCH BREAK', 'MPMC', 'DMAA', 'UNIX'],
+                'thursday' : ['MPMC', 'SS', 'DMMA', 'LUNCH BREAK', 'UNIX', 'DCCN', 'MPMC'],
+                'friday' : ['WT', 'DMAA', 'DCCN', 'LUNCH BREAK', 'MPMC', 'UNIX', 'DMAA'],
+                'saturday' : ['DMAA', 'WT', 'UNIX','LUNCH BREAK', 'UNIXLAB'],
+                'sunday' : ['WTLAB', 'AELSLAB', 'LUNCH BREAK', 'MPMCLAB']
+              }
+classes = { 'DCCN':	'https://meet.google.com/lookup/filgrqri3s',
+            'MPMC' : 'https://meet.google.com/lookup/c2h3bvthzx',
+            'WT' : 'https://meet.google.com/lookup/frcfytzqw2',
+            'DMAA' : 'https://meet.google.com/lookup/ggjkhdmcfp',
+            'CP' :'',	
+            'UNIX' : 'https://meet.google.com/lookup/bziccis7kc',
+            'RA' : 'https://meet.google.com/lookup/hiexncufwt',
+            'SS' : 'https://meet.google.com/lookup/hw7pxhpgv3',
+            'WTLAB' : 'https://meet.google.com/lookup/brzpz3qiql',
+            'ELCS'	: 'https://meet.google.com/lookup/hdlj3ho6u2',
+            'MPMCLAB' :	'https://meet.google.com/lookup/hvdgtwo2yd'
+          }
