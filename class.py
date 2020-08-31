@@ -21,9 +21,9 @@ elif inp == 'AUTOMATE' or inp == '-A':
         time = datetime.now().time()
         time = str(time).split(':')
         for i in subs:
-            if time[0] == i[0:2] and time[1] == i[3:5]:
+            if time[0] == i[0:2] and time[1] == i[3:5] and 'LUNCH' not in i:
                 open_link(classes[i[20:]])
-                print('Opened' + i[20:] + 'link')
+                print('Opened ' + i[20:] + ' link')
                 if i == subs[-1]:
                     c = 1
                     break
