@@ -57,7 +57,7 @@ def classes_today():
     for i in subs:
         time = datetime.now().time()
         time = str(time).split(":")
-        if time[0] == i[0:2] and time[1] <= i[3:5]:
+        if time[0] == i[0:2] and time[1] >= i[3:5]:
             print('\n' + '\t' + i,' <-- Present Session')
         elif time[0] == i[11:13] and time[1] < i[14:16]:
             print('\n' + '\t' + i,' <-- Present Session')
