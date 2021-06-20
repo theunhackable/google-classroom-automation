@@ -65,10 +65,12 @@ def classes_today():
             print('\n' + '\t' + i)
 
 def help_menu():
-    print('\n' + '\t' + 'class [-a or automate] To automate')
-    print('\n' + '\t' + 'class [-h or help] To see this menu')
-    print('\n' + '\t' + 'class [subject_name] To open subject_name\'s link')
-    print('\n' + '\t' + 'class [-t or today] To see today\'s classes')
+    print('\n\t --->>> AUTOMATING GOOGLE CLASSROOM V 1.0 <<<---')
+    print('\n\t COMMAND                  DESCRIPTION')
+    print('\n\t class [-a or automate]   To automate')
+    print('\n\t class [-h or help]       To see this menu')
+    print('\n\t class [subject_name]     To open subject_name\'s link')
+    print('\n\t class [-t or today]      To see today\'s classes')
 
 def open_link(url):
     webbrowser.open(url)
